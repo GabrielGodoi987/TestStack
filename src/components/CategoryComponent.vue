@@ -1,18 +1,23 @@
 <template lang="">
   <div>
     <q-virtual-scroll
-      style="max-block-size: 170px"
+      style="max-block-size: 200px"
       :items="store.categorias"
       separator
       virtual-scroll-horizontal
     >
       <template v-slot="{ item, index }">
-        <q-item :key="index" dense>
+        <q-item :key="index" dense class="text-center text-grey">
           <q-card bordered style="inline-size: 150px">
-            <q-card-section>
-              <q-img :src="item.img" />
+            <q-card-section class="q-gutter-md">
+              <q-img
+                :src="item.img"
+                style="block-size: 100px; inline-size: 100px"
+              />
+              <div class="text-subtitle">
+                {{ item.title }}
+              </div>
             </q-card-section>
-            <q-card-section> {{ item.title }} </q-card-section>
           </q-card>
         </q-item>
       </template>
