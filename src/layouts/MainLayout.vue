@@ -30,8 +30,8 @@
           </template>
         </q-input>
       </div>
-
-      <!-- <q-virtual-scroll
+      <!--
+      <q-virtual-scroll
         style="max-block-size: 170px"
         :items="carousel"
         separator
@@ -65,10 +65,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-// import { Carousel } from '../Models/Carousel';
+// import { Categorias } from '../Models/categorias';
 import { Pages } from '../Models/Pages';
 import { Routes } from '../Models/Routes';
-import { Categorias } from '../Models/categorias';
 
 import CategoryComponent from '../components/CategoryComponent.vue';
 
