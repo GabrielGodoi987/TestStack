@@ -15,7 +15,7 @@
                 style="block-size: 100px; inline-size: 100px"
               />
               <div class="text-subtitle">
-                {{ item.title }}
+                {{ item.categoria }}
               </div>
             </q-card-section>
           </q-card>
