@@ -1,0 +1,135 @@
+{
+  "lojas": [
+    {
+      "id": 1,
+      "nome": "Pizza hut",
+      "categoria": "Pizza",
+      "img": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itens": [
+        "Pizza de Calabresa",
+        "Pizza de frango",
+        "Pizza de Chocolate",
+        "Coca-Cola",
+        "Pepsi",
+        "Fanta",
+        "Mousse de Maracujá"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "McDonald’s",
+      "categoria": "Lanches",
+      "img": "https://images.unsplash.com/photo-1512152272829-e3139592d56f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itens": [
+        "Big Mac",
+        "Mac Lanche Feliz",
+        "Mac Vegano",
+        "Batata frita",
+        "Coca-cola",
+        "Suco"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Drogasil",
+      "categoria": "Medicamentos",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vPV5QyICNYKQ20T4PFMU4zKD_saIYQ3l418Yako03w&s",
+      "itens": [
+        "Paracetamol",
+        "Dipirona",
+        "Soro fisiológico",
+        "Esparadrapo",
+        "Curativo (Band-Aid)",
+        "Escova de dente",
+        "Creme dental",
+        "Enantato de testosterona",
+        "Estanozol",
+        "Cipionato de testosterona",
+        "Esteres de trenbolona"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Adega do zé",
+      "categoria": "Bebidas",
+      "img": "https://images.unsplash.com/photo-1462887749044-b47cb05b83b8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itens": [
+        "Cerveja",
+        "Vinho",
+        "Energético",
+        "Whisky",
+        "Caipirinha",
+        "Batida",
+        "Tequila"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Padaria Barbotti",
+      "categoria": "Café e Padaria",
+      "img": "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itens": [
+        "Pão",
+        "Língua de sogra",
+        "Salgado",
+        "Bolo",
+        "Donuts",
+        "Torta salgada",
+        "Torta doce"
+      ]
+    },
+    {
+      "nome": "China da Rocha",
+      "categoria": "Comidas Japonesas",
+      "img": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "itens": [
+        "Poke",
+        "Combo salmão",
+        "Yakisoba",
+        "Temaki",
+        "Sunomono",
+        "Quioza",
+        "Rolinho primavera"
+      ]
+    },
+    {
+      "nome": "Doceria da Paloma",
+      "categoria": "Doces",
+      "img": "https://images.unsplash.com/photo-1519087318609-bfb5c04c27f5?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itens": [
+        "Bolo",
+        "Brigadeiro",
+        "Bolo no pote",
+        "Torta de maracujá",
+        "Sonho",
+        "Brownie"
+      ]
+    },
+    {
+      "nome": "Restaurante Italiano do Brunno",
+      "categoria": "Comidas Italianas",
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "itens": [
+        "Fettucine artezanal",
+        "Ravioli",
+        "Lasanha",
+        "Rigatone",
+        "Gnocchi",
+        "Spaguetti"
+      ]
+    },
+    {
+      "nome": "Danillo Marmitas",
+      "categoria": "Marmitas",
+      "img": "https://uploads.metropoles.com/wp-content/uploads/2022/05/17194313/marmitas-GettyImages-1340652024-2.jpg",
+      "itens": [
+        "Tutu de feijão",
+        "Escondidinho de batata",
+        "Bife à cavalo",
+        "Executivo",
+        "Da casa",
+        "Virada Paulista"
+      ]
+    }
+  ]
+}
