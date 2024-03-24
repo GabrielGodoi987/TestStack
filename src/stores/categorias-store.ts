@@ -9,11 +9,21 @@ export const useCategorias = defineStore('categorias-store', () => {
 
   function FindAll() {
     api
-      .get('http://localhost:3000/categorias')
+      .get('http://localhost:3000/lojas')
       .then(async (res) => {
+        const returnCategory: any[] = [];
         const data = await res.data;
-        categorias.value = data;
-        console.log(data);
+
+        // loop no array que vamos receber do data
+        data.map((element: any) => {
+          returnCategory.push({
+            id: element.id,
+            categoria: element.categoria,
+            img: element.img,
+          });
+        });
+        categorias.value = returnCategory;
+        console.log(categorias.value);
         Notify.create({
           message: 'as categoria ta funfando meu nobre',
           color: 'green',
